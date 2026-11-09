@@ -1,0 +1,20 @@
+body { margin: 0; background: #eef1f5; font-family: "Segoe UI", Arial, sans-serif; color: #1d2733; }
+.pagina { max-width: 1400px; margin: 0 auto; padding: 20px 16px 40px; }
+header h1 { margin: 0 0 4px; font-size: 26px; }
+header p { margin: 0 0 8px; color: #556; }
+.aviso { display: inline-block; background: #fff4d6; color: #7a5a00; padding: 4px 10px; border-radius: 6px; font-size: 13px; }
+.fonte { color: #667; font-size: 13px; }
+.card { background: #fff; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.08); padding: 14px; }
+.card h3 { margin: 4px 0 12px; font-size: 16px; }
+.filtros { display: flex; gap: 16px; margin: 16px 0; flex-wrap: wrap; align-items: flex-end; }
+.filtros label { font-size: 12px; font-weight: 600; color: #556; display: block; margin-bottom: 4px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 16px; }
+.kpi-titulo { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #667; }
+.kpi-valor { font-size: 30px; font-weight: 700; margin: 4px 0; color: #1f4e89; }
+.kpi-sub { font-size: 12px; color: #778; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(560px, 1fr)); gap: 16px; margin-bottom: 16px; }
+@media (max-width: 640px) { .grade { grid-template-columns: 1fr; } }
+.nota { font-size: 12px; color: #667; margin-top: 10px; }
+#interpretacao li { margin-bottom: 10px; line-height: 1.45; }
+details summary { cursor: pointer; font-weight: 600; margin-top: 6px; }
+details p { line-height: 1.5; color: #334; }
